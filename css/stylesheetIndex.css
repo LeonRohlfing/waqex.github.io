@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+ * {
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Hubballi';
+    color: #FFFFFF;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    background-color: #3B3B3B;
+}
+h1{
+    font-family: 'Hubballi';
+    font-size: 100px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+p{
+    font-family: 'Hubballi';
+    color: #FFFFFF;
+}
+a{
+    font-size: 20px;
+    vertical-align: middle;
+}
+h1 span{
+    color: #00F398;
+}
+
+/*Header*/
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#innerHeader{
+    width: 95vw;
+    margin: auto 0%;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.navItem{
+    margin-left: 45px;
+    vertical-align: middle;
+}
+nav a li{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*Home*/
+section{
+    min-height: 100vh;
+}
+#home{
+    background: url(../Images/homeBackground.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+}
