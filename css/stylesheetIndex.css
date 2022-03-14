@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
- * {
+* {transition: all 500ms} 
+* {
+    scroll-behavior: smooth;
     margin: 0;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Hubballi';
+    font-family: 'Hubballi' , cursive;
+    font-weight: 100;
     color: #FFFFFF;
+    cursor: default;
 }
+hr{
+  width: 80px;
+  height: 3px;
+  background: #707070;
+  border: 20px;
+  margin:0 auto 46px auto;
+}
+
 html, body{
     margin: 0;
     padding: 0;
@@ -14,29 +26,38 @@ html, body{
     background-color: #3B3B3B;
 }
 h1{
-    font-family: 'Hubballi';
+    font-family: 'Hubballi' , cursive;
     font-size: 100px;
     color: #FFFFFF;
     font-weight: 100;
 }
+h2{
+    font-size: 60px;
+}
 p{
     font-family: 'Hubballi';
     color: #FFFFFF;
+    font-size: 30px;
 }
 a{
     font-size: 20px;
     vertical-align: middle;
 }
 h1 span{
-    color: #00F398;
+    color: #00ffa2;
 }
 
 /*Header*/
+nav li:hover{
+    opacity: 0.5;
+}
 header{
+    background-color: rgba(27, 27, 27, 0.5);
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 4em;
 }
 #innerHeader{
     width: 95vw;
@@ -51,17 +72,19 @@ nav{
 }
 
 .navItem{
-    margin-left: 45px;
+    margin-left: 60px;
     vertical-align: middle;
+    font-size: 30px;
 }
 nav a li{
     display: table-cell;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 /*Home*/
 section{
-    min-height: 100vh;
+    min-height: 100%;
 }
 #home{
     background: url(../Images/homeBackground.jpg);
@@ -69,4 +92,67 @@ section{
     background-size: cover;
     background-attachment: fixed;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5em;
+}
+#description{
+    margin-top: 2em;
+    font-size: 50px;
+}
+#titel{
+    margin-top: 5em;
+}
+#mehrErfahren{
+    cursor: pointer;    
+   color: #3B3B3B;
+   background-color: #FFFFFF;
+   width: 200px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 31px;
+   font-size: 30px;
+}
+#mehrErfahrenContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mehrErfahrenContainer:hover{
+    opacity: 0.8;
+}
+/*Allgemein*/
+#allgemein{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    
+}
+.contentAllgemein{
+    width: 100%;
+    height: 100%;
+}
+.contentAllgemein h2{
+    margin-top: 1em;
+}
+#OL{
+    background: url(../Images/ol.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#UR{
+    background: url(../Images/ur.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+/*Unser Team*/
+#unserTeam h1{
+    padding-top: 1em;
+}
+/*Footer*/
+footer{
+    background-color: black;
 }
