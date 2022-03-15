@@ -152,7 +152,23 @@ section{
 #unserTeam h1{
     padding-top: 1em;
 }
+.teamMember{
+    background-color: #8E8E8E;
+    min-width: 398px;
+    min-height: 496px;
+    border-radius: 36px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.teamGalary{
+    display: flex;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+}
 /*Footer*/
 footer{
     background-color: black;
+    display: grid;
+    grid-column: auto auto;
+    grid-row: auto auto;
 }
