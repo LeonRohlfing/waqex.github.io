@@ -34,6 +34,9 @@ h1{
 h2{
     font-size: 60px;
 }
+h3{
+    font-size: 30px;
+}
 p{
     font-family: 'Hubballi';
     color: #FFFFFF;
@@ -42,9 +45,16 @@ p{
 a{
     font-size: 20px;
     vertical-align: middle;
+    align-items: center;
 }
-h1 span{
+span{
     color: #00ffa2;
+}
+.button{
+    background-color: #00ffa2;
+    border-radius: 31px;
+    text-align: center;
+    color: #3B3B3B;
 }
 
 /*Header*/
@@ -153,17 +163,42 @@ section{
     padding-top: 1em;
 }
 .teamMember{
-    background-color: #8E8E8E;
-    min-width: 398px;
-    min-height: 496px;
+    width: 350px;
+    height: 450px;
     border-radius: 36px;
     margin-left: 10px;
     margin-right: 10px;
 }
 .teamGalary{
+    padding-top: 4em;
     display: flex;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.teamGalary h3{
+    text-align: left;
+}
+.teamMember p{
+    font-size: 22px;
+    padding: 5px;
+    text-align: left;
+}
+#mehrErfahrenTeamA{
+    padding-top: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#mehrÜberTeam{
+    font-size: 30px;
+    text-align: center;
+    height: 40px;
+    width: 420px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 /*Footer*/
 footer{
