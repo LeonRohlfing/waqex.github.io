@@ -1,3 +1,20 @@
+/*Copyright (C) 2022  Florian Marks
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    
+    marks.florian123@gmail.com
+    */
+
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 * {transition: all 500ms} 
 * {
@@ -161,6 +178,11 @@ section{
     background-position: center center;
     background-size: cover;
 }
+/*Wofür wir stehen*/
+#wofürWirStehen h1{
+    padding-top: 1em;
+
+}
 /*Unser Team*/
 #unserTeam h1{
     padding-top: 1em;
@@ -184,7 +206,7 @@ section{
 }
 .teamMember p{
     font-size: 22px;
-    padding: 5px;
+    padding-bottom: 5px;
     text-align: left;
 }
 #mehrErfahrenTeamA{
@@ -202,6 +224,7 @@ section{
     align-items: center;
     justify-content: center;
     display: flex;
+
 }
 /*Footer*/
 footer{
@@ -209,4 +232,5 @@ footer{
     display: grid;
     grid-column: auto auto;
     grid-row: auto auto;
+    height: 40vh;
 }
