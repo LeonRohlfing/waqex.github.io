@@ -72,6 +72,9 @@ span{
     border-radius: 31px;
     text-align: center;
     color: #3B3B3B;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .button:hover{
     opacity: 0.8;
@@ -183,6 +186,21 @@ section{
     padding-top: 1em;
 
 }
+#wofürWirStehen p{
+    padding: 1em 1em 2em 1em;
+}
+#wofürWirStehenButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#wofürWirStehenButton{
+    height: 40px;
+    width: 320px;
+}
+
 /*Unser Team*/
 #unserTeam h1{
     padding-top: 1em;
@@ -214,6 +232,7 @@ section{
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-bottom: 3em;
 }
 
 #mehrÜberTeam{
@@ -221,10 +240,6 @@ section{
     text-align: center;
     height: 40px;
     width: 420px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
 }
 /*Footer*/
 footer{
