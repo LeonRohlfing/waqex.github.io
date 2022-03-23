@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+/*Home*/
+#background{
+    object-fit: cover;
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+}

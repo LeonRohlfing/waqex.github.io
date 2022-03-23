@@ -1,0 +1,130 @@
+/*Copyright (C) 2022  Florian Marks
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    
+    marks.florian123@gmail.com
+    */
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+* {transition: all 500ms} 
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Hubballi';
+    font-weight: 100;
+    color: #FFFFFF;
+    cursor: default;
+}
+section{
+    min-height: 100%;
+}
+hr{
+  width: 80px;
+  height: 3px;
+  background: #707070;
+  border: 20px;
+  margin:0 auto 46px auto;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    background-color: #3B3B3B;
+}
+h1{
+    font-family: 'Hubballi';
+    font-size: 100px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+h2{
+    font-size: 60px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-family: 'Hubballi';
+    color: #FFFFFF;
+    font-size: 30px;
+}
+a{
+    font-size: 20px;
+    vertical-align: middle;
+    align-items: center;
+}
+span{
+    color: #00ffa2;
+}
+.button{
+    background-color: #00ffa2;
+    border-radius: 31px;
+    text-align: center;
+    color: #3B3B3B;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+}
+
+/*Header*/
+nav li:hover{
+    opacity: 0.5;
+}
+header{
+    background-color: rgba(27, 27, 27, 0.5);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 4em;
+}
+#innerHeader{
+    width: 95vw;
+    margin: auto 0%;
+    display: flex;
+    justify-content: space-between;
+}
+#logoHeader{
+    padding: 3px;
+    height: 3em;
+    display: table-cell;
+    object-fit: cover;
+    cursor: pointer;
+}
+#logoHeader:hover{
+    opacity: 0.6;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navItem{
+    margin-left: 60px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+}
