@@ -54,18 +54,32 @@
     opacity: 0.8;
 }
 /*Allgemein*/
+.contentButton{
+    margin: 1.5em;
+    align-self: center‚;
+    width: 150px;
+    height: 30px;
+}
+.contentButton div{
+    color: #3B3B3B;
+}
 #allgemein{
     display: grid;
     grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-    
+    grid-template-columns: 50% 50%;  
+}
+.contentAllgemein p{
+    padding: 0em 1em 0em 1em;
 }
 .contentAllgemein{
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .contentAllgemein h2{
-    margin-top: 1em;
+    margin-top: 0.3em;
 }
 #OL{
     background: url(../Images/ol.jpg);
@@ -82,7 +96,7 @@
     padding-top: 1em;
 }
 #wofürWirStehen p{
-    padding: 1em 1em 2em 1em;
+    padding: 2em 1em 2em 1em;
 }
 #wofürWirStehenButtonContainer {
     width: 100%;

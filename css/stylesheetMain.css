@@ -26,6 +26,9 @@
     color: #FFFFFF;
     cursor: default;
 }
+.link:hover{
+    opacity: 0.8;
+}
 section{
     min-height: 100%;
 }

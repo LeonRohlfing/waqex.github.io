@@ -6,3 +6,17 @@
     height: 50vh;
     width: 100vw;
 }
+#Impressum {
+    text-align: left;
+    padding: 2em;
+    font-size: 40px;
+}
+.Ilink{
+    text-align: left;
+    font-size: 40px;
+}
+h2 {
+    font-weight:600;
+    text-decoration: underline;
+    font-size: 50px;
+}
