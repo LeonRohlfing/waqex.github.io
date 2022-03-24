@@ -1,89 +1,134 @@
+<!-- Copyright (C) 2022 Florian Marks
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see
+<https: //www.gnu.org/licenses />.
+
+marks.florian123@gmail.com
+-->
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheetIndex.css">
+    <link rel="stylesheet" href="css/stylesheetMain.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <title>Waqex|Home</title>
+</head>
+<body>
+    <header>
+        <div id="innerHeader">
+            <a href="index.html#home"><li><img id="logoHeader" src="Images/waqex-logo-mit-tex-weiÃŸ-WEBSITE.png" alt=""></li></a>
+            <nav id="navigation">
+                <a href="#allgemein" class="navItem">
+                    <li>Überblick</li>
+                </a>
+                <a href="#wofürWirStehen" class="navItem">
+                    <li>Wofür WAQEX steht</li>
+                </a>
+                <a href="" class="navItem">
+                    <li>Das Produkt</li>
+                </a>
+                <a href="#unserTeam" class="navItem">
+                    <li>Das Team</li>
+                </a>
+                <a href="kontakt.html" class="navItem">
+                    <li>Kontakt</li>
+                </a>
+            </nav>
+        </div>
+    </header>
+<!--Home---------------------------------------------------------------------------------------------->
+    <section id="home">
+        <div id="titel"><h1>WAQ<span>EX</span></h1></div>
+        <p id="description">Wir extrahieren Wasser, ohne externe <br> Stromquelle, aus der Luft</p>
+        <a id="mehrErfahrenContainer" href="#allgemein"><div id="mehrErfahren">mehr erfahren</div></a>
+    </section>
+<!--Allgemein----------------------------------------------------------------------------------------->
+    <section id="allgemein">
+        <div id="OL" class="contentAllgemein">
+        </div>
+        <div id="OR" class="contentAllgemein">
+            <h2>Innovativ</h2>
+            <hr>
+            <p>Unser inovatives Produkt erschafft die Möglichkeit mit</p>
+        </div>
+        <div id="UL" class="contentAllgemein">
+            <h2>Nachhaltig</h2>
+            <hr>
+        </div>
+        <div id="UR" class="contentAllgemein"></div>
+    </section>
+<!--Der Name------------------------------------------------------------------------------------------>
+<section id="wofürWirStehen">
+    <h1>Wofür wir <span>stehen</span></h1>
+    <hr>
+    <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+    </p>
+    <a href="company.html" id="wofürWirStehenButtonContainer">
+        <div id="wofürWirStehenButton" class="button">Mehr erfahren</div>
+    </a>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.6.9/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.6.9/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.6.9/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.6.9/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.6.9/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.6.9/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.6.9/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.6.9/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.6.9/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.6.9/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+</section>
+<!--Unser Team---------------------------------------------------------------------------------------->
+    <section id="unserTeam">
+        <h1>Unser <span>Team</span></h1>
+        <hr>
+        <div class="teamGalary">
+            <div class="teamMember">
+                <img src="http://via.placeholder.com/350x350" alt="">
+                <h3>Alexandra <span>Schüller</span></h3>
+                <p>CEO von WAQEX</p>
+            </div>
+            <div class="teamMember">
+                <img src="http://via.placeholder.com/350x350" alt="">
+                <h3>Madleen <span>Bauer</span></h3>
+                <p>Co Leiterin des Design- & Marketingteam</p>
+            </div>
+            <div class="teamMember">
+                <img src="http://via.placeholder.com/350x350" alt="">
+                <h3>Niklas <span>Kögler</span></h3>
+                <p>Co Leiter des Design- & Marketingteam</p>
+            </div>
+            <div class="teamMember">
+                <img src="http://via.placeholder.com/350x350" alt="">
+                <h3>Florian <span>Marks</span></h3>
+                <p>Leitung der IT- & Finanzabteilung</p>
+            </div>
+            <div class="teamMember">
+                <img src="http://via.placeholder.com/350x350" alt="">
+                <h3>Leon <span>Rohlfing</span></h3>
+                <p>Leiter der Vertriebsabteilung & <br> Kommunikationskoordinator</p>
+            </div>
+        </div>
+        <a id="mehrErfahrenTeamA"href="">
+            <div  id="mehrÜberTeam" class="button">Mehr über das Team erfahren</div>
+        </a>
+    </section>
+    <footer>
+        <div id="row1">
+            <ul>
+                <li><a href="kontakt.html">Home</a></li>
+                <li><a href="kontakt.html">Das Produkt</a></li>
+                <li><a href="kontakt.html"></a></li>
+                <li><a href="kontakt.html">Impressum</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
 </html>
