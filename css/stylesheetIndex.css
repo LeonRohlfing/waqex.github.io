@@ -63,6 +63,7 @@ a{
     font-size: 20px;
     vertical-align: middle;
     align-items: center;
+    cursor: pointer;
 }
 span{
     color: #00ffa2;
@@ -181,11 +182,13 @@ section{
 /*Wofür wir stehen*/
 #wofürWirStehen h1{
     padding-top: 1em;
-
 }
 /*Unser Team*/
 #unserTeam h1{
     padding-top: 1em;
+}
+#wofürWirStehen img{
+    height: 30em;
 }
 .teamMember{
     width: 350px;
