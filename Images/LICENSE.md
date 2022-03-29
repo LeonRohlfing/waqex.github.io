@@ -7,5 +7,8 @@ THE PICTURES:
 - waqex-logo-mit-text-weiß-Inkskape.svg
 - waqex-logo-weiß-Inkskape.svg
 - waqex-logo-mit-text-weiß-WEBSITE.jpg
+- Flo.jpeg
+- Alex.jepg
+- leon.jpeg
 
 MAY NOT BE USED FOR ANY PURPOSE OTHER THAN PRESENTATION OF THE BUDGETING STARTUP "WAQEX"!
