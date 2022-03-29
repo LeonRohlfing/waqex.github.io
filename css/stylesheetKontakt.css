@@ -20,3 +20,12 @@ h2 {
     text-decoration: underline;
     font-size: 50px;
 }
+#rechtliches {
+    padding: 2em;
+    font-size: 40px;
+    text-decoration: none;
+}
+#rechtliches h2 {
+    padding-top: 2em;
+    text-decoration: none;
+}
