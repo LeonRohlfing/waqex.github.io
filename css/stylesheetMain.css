@@ -85,10 +85,12 @@ span{
 .button:hover{
     opacity: 0.8;
 }
-
+.link{
+    cursor: pointer;
+}
 /*Header*/
 nav li:hover{
-    opacity: 0.5;
+    opacity: 0.8;
 }
 header{
     background-color: rgba(27, 27, 27, 0.5);

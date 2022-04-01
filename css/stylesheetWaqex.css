@@ -1,0 +1,101 @@
+/*Copyright (C) 2022  Florian Marks
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    
+    marks.florian123@gmail.com
+*/
+/*Home*/
+h1{
+    padding-top: 1.5em;
+}
+.linkImText{
+    font-family: 'Hubballi';
+    color: #FFFFFF;
+    font-size: 25px;
+    vertical-align: baseline;
+    color: #00ffa2;
+
+}
+p{
+    padding: 0 1em 0 1em ;
+}
+#home{
+    background:rgba(0, 0, 0, 0.753) url(../Images/VormSchild.jpeg);
+    background-blend-mode: darken;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5em;
+}
+#description{
+    margin-top: 2em;
+    font-size: 50px;
+}
+#titel{
+    margin-top: 5em;
+}
+#headline{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#down{
+    margin: 3em;
+}
+#teamBildContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 50vw;
+}
+#down img {
+    stroke: rgba(255, 255, 255, 0.616);
+    height: 2em;
+    background-color: rgb(109, 109, 109);
+    border-radius: 100%;
+    box-shadow: 3px 5px 5px black;
+}
+#teambild{
+    height: 300px;
+}
+#werWirSind{
+    min-width: 50vw;
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#werWirSind img{
+    width: 100%;
+    height: auto;
+}
+#werWirSindText{
+    width: 50vw;
+}
+.textKlein{
+    font-size:28px;
+    text-align: center;
+}
+#zitat{
+    font-size: 60px;
+    padding: 0 0.2em 0 0.2em;
+}
+#socialMedia{
+    min-width: 100%;
+}
