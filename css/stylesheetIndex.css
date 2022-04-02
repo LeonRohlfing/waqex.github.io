@@ -159,15 +159,3 @@
     object-fit: cover;
     background-size: cover;
 }
-/*Footer*/
-footer{
-    background-color: black;
-    display: flex;
-    text-align: left;
-}
-#row1{
-    padding: 5em;
-}
-footer a{
-    text-decoration: underline;
-}

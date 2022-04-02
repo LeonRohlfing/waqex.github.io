@@ -133,3 +133,29 @@ nav a li{
     vertical-align: middle;
     cursor: pointer;
 }
+/*Footer*/
+footer{
+    background-color: black;
+}
+#linkListe{
+    display: flex;
+    text-align: left;
+}
+.linkRowFooter{
+    padding-left: 5em;
+    padding-top: 5em;
+}
+footer a{
+    text-decoration: underline;
+}
+#socialMedia{
+    min-width: 100%;
+    padding-bottom: 1em;
+}
+#socialMedia img {
+    cursor: pointer;
+    height: 32px;
+}
+.socialELM{
+    padding-left: 10px;
+}
