@@ -15,7 +15,7 @@
     marks.florian123@gmail.com
     */
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
-* {transition: all 500ms} 
+* {transition: all 600ms} 
 * {
     scroll-behavior: smooth;
     margin: 0;
@@ -27,7 +27,7 @@
     cursor: default;
 }
 .link:hover{
-    opacity: 0.8;
+    opacity: 0.5;
 }
 section{
     min-height: 100%;
@@ -83,14 +83,14 @@ span{
     cursor: pointer;
 }
 .button:hover{
-    opacity: 0.8;
+    opacity: 0.5;
 }
 .link{
     cursor: pointer;
 }
 /*Header*/
 nav li:hover{
-    opacity: 0.8;
+    opacity: 0.5;
 }
 header{
     background-color: rgba(27, 27, 27, 0.5);

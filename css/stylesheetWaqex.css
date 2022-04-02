@@ -21,9 +21,9 @@ h1{
 .linkImText{
     font-family: 'Hubballi';
     color: #FFFFFF;
-    font-size: 25px;
     vertical-align: baseline;
     color: #00ffa2;
+    font-size:1em;
 
 }
 p{
@@ -79,20 +79,42 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
     
+}
+#werWirSind h2{
+    font-size: 5em;
 }
 #werWirSind img{
     width: 100%;
     height: auto;
 }
 #werWirSindText{
-    width: 50vw;
+    width: 49%;
 }
 .textKlein{
-    font-size:28px;
+    font-size:2.3em;
     text-align: center;
 }
 #zitat{
-    font-size: 60px;
+    font-size: 6em;
     padding: 0 0.2em 1em 0.2em;
+}
+/*Ziel*/
+#verbildlichung{
+    display: flex;
+    justify-content: space-around;
+}
+.zielIcon{
+    max-width: 33vh;
+}
+.zielIcon img{
+    max-width: 33vh;
+}
+#zuKreis{
+    border-radius: 100%;
+}
+#containerTextZiel{
+    padding-top: 8em;
 }
