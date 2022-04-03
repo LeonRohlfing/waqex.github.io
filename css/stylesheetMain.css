@@ -140,10 +140,14 @@ footer{
 #linkListe{
     display: flex;
     text-align: left;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3em;
 }
-.linkRowFooter{
-    padding-left: 5em;
-    padding-top: 5em;
+.linkRowFooter li{
+    padding-top: 0.4em;
 }
 footer a{
     text-decoration: underline;
