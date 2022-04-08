@@ -1,0 +1,51 @@
+/*Copyright (C) 2022  Florian Marks
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    
+    marks.florian123@gmail.com
+    */
+/*Home*/
+#backgroundContainer{
+    max-height: 50vh;
+}
+h1{
+    padding-top: 1.5em;
+    min-width: 99.1vw;
+}
+#start{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+#start img{
+    width: 40%;
+}
+#textContainerStart{
+    width: 40%;
+    padding: 2em;
+}
+/*Nachhaltigkeit*/
+#nachhaltigkeit {
+    background: rgba(0, 0, 0, 0.656) url(../Images/nature-4101348.jpg);
+    background-blend-mode: darken;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#nachhaltigkeit p{
+    padding: 3em;
+    font-size: 2.4em;
+    
+}
