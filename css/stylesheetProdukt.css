@@ -37,14 +37,14 @@ h1{
     padding: 2em;
 }
 /*Nachhaltigkeit*/
-#nachhaltigkeit {
+#nachhaltig {
     background: rgba(0, 0, 0, 0.656) url(../Images/nature-4101348.jpg);
     background-blend-mode: darken;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
-#nachhaltigkeit p{
+#nachhaltig p{
     padding: 3em;
     font-size: 2.4em;   
 }
