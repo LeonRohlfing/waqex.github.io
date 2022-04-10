@@ -48,3 +48,26 @@ h1{
     padding: 3em;
     font-size: 2.4em;   
 }
+/*Vorstellung*/
+
+/*Innovation*/
+#innovation{
+    background: rgba(0, 0, 0, 0.656) url(../Images/lightbulb-4354424_1920.jpg);
+    background-blend-mode: darken;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5em;
+}
+#textInnovation h1{
+    min-width: 5vw;
+}
+#textInnovation > p{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.4em;
+}
