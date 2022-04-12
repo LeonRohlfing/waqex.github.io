@@ -1,3 +1,3 @@
-Sitemap:https://waqex.github.io/Sitemap_Index.txt
+Sitemap: https://waqex.github.io/Sitemap_Index1.txt
 User-agent: * 
 Disallow:
