@@ -1,0 +1,48 @@
+/*Copyright (C) 2022  Florian Marks
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    
+    marks.florian123@gmail.com
+    */
+
+.teamMember{
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    min-height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.teamMememberImage img{
+    max-width: 50%;
+    background-size: cover;
+    object-fit: cover;
+}
+.teamMememberImage{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teamMemberText{
+    padding-top: 3em;
+    max-width: 50%;
+    text-align: center;
+}
+.aufgabe{
+    text-transform: uppercase;
+}
+hr{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
