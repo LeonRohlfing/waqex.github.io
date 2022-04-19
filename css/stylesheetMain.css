@@ -163,3 +163,22 @@ footer a{
 .socialELM{
     padding-left: 10px;
 }
+.toggelMenue{
+    margin-left: 60px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+@media (max-width: 968px) {
+    .navItem{
+        display: none;
+    }
+    .toggelMenue{
+        display: block;
+    }    
+}
+
+@media (min-width: 969px){
+    .toggelMenue{
+        display: none;
+    }
+}
