@@ -15,34 +15,34 @@
     marks.florian123@gmail.com
     */
 
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
-/*Home*/
-#background{
-    object-fit: cover;
+.teamMember{
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    min-height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.teamMememberImage img{
+    max-width: 50%;
     background-size: cover;
-    height: 50vh;
-    width: 99.1vw;
+    object-fit: cover;
 }
-#Impressum {
-    text-align: left;
-    padding: 2em;
-    font-size: 40px;
+.teamMememberImage{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.Ilink{
-    text-align: left;
-    font-size: 40px;
+.teamMemberText{
+    padding-top: 3em;
+    max-width: 50%;
+    text-align: center;
 }
-h2 {
-    font-weight:600;
-    text-decoration: underline;
-    font-size: 50px;
+.aufgabe{
+    text-transform: uppercase;
 }
-#rechtliches {
-    padding: 2em;
-    font-size: 40px;
-    text-decoration: none;
-}
-#rechtliches h2 {
-    padding-top: 2em;
-    text-decoration: none;
+hr{
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
