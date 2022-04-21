@@ -171,6 +171,9 @@ footer a{
     align-items: center;
     justify-content: center;
 }
+#menueSchließen{
+    display: none;
+}
 @media (max-width: 968px) {
     #toggelMenue{
         display: block;
@@ -194,5 +197,11 @@ footer a{
 @media (min-width: 969px){
     #toggleMenue{
         display: none;
+    }
+}
+@media (max-width: 583px) {
+    #allgemein{
+        display: flex;
+        flex-direction: column;
     }
 }
