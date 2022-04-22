@@ -118,3 +118,29 @@ p{
 #containerTextZiel{
     padding-top: 8em;
 }
+@media (max-width: 904px) {
+    #verbildlichung{
+        flex-direction: column;
+        align-items: center;
+    }
+    .zielIcon{
+        padding-top: 2.5em;
+    }  
+}
+@media (max-width:768px) {
+    #werWirSind{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        flex-wrap: nowrap;
+    }
+    #werWirSind img {
+        padding-bottom: 3em;
+    }
+    #werWirSind p{
+        width: 100vw;
+        padding: 0 0 0 0;
+    }
+    
+}
