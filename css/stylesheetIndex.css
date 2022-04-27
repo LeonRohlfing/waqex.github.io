@@ -159,3 +159,20 @@
     object-fit: cover;
     background-size: cover;
 }
+@media (max-width: 375px) {
+    #mehrÜberTeam{
+        height: 3em;
+    }
+    
+}
+@media (max-width: 350px) {
+    .teamMember img{
+        width: 100%;
+    }
+}
+@media (max-width: 966px) {
+    #mehrErfahrenContainer{
+        margin-bottom: 2em;
+    }
+
+}

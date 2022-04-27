@@ -20,7 +20,6 @@
 }
 h1{
     padding-top: 1.5em;
-    min-width: 99.1vw;
 }
 #start{
     display: flex;
@@ -28,12 +27,12 @@ h1{
     align-items: center;
     justify-content: center;
     padding-bottom: 3em;
-}
+flex-direction: column;}
 #start img{
     width: 40%;
 }
 #textContainerStart{
-    width: 40%;
+    width: 1;
     padding: 2em;
 }
 /*Nachhaltigkeit*/
@@ -70,4 +69,46 @@ h1{
     align-items: center;
     flex-direction: column;
     font-size: 2.4em;
+}
+@media (max-width: 968px) {
+    #textInnovation > p{
+        width: 99%;
+    }
+    #textInnovation p{
+        padding: 0em;
+    }
+    #innovation{
+        padding-right: 0em;
+        min-width: 100%;
+    }
+}
+@media (max-width: 708px) {
+    #start{
+        flex-direction: column;
+    }
+    #start img{
+        width: 70%;
+    }
+    #textContainerStart{
+        max-width: 100%;
+    }
+}
+@media (max-Width: 622px) {
+    h1{
+        font-size: 3em;
+    }
+    p{
+        font-size: 1.5em;
+    }
+    #nachhaltig p{
+        padding: 0.3em;
+        font-size: 1.5em;
+    }
+    #textInnovation p{
+        font-size: 1.5em;
+    }
+    #textContainerStart{
+        padding: 0.2em;
+    }
+    
 }

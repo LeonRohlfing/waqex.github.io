@@ -77,12 +77,12 @@ p{
     min-width: 50vw;
     padding-top: 150px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
+    
+    
+    flex-direction: column;
     align-items: center;
     
-}
+flex-wrap: nowrap;justify-content: center;}
 #werWirSind h2{
     font-size: 5em;
 }
@@ -91,7 +91,8 @@ p{
     height: auto;
 }
 #werWirSindText{
-    width: 49%;
+    padding-top: 5em;
+    width: 80%;
 }
 .textKlein{
     font-size:2.3em;
@@ -117,4 +118,45 @@ p{
 }
 #containerTextZiel{
     padding-top: 8em;
+}
+@media (max-width: 904px) {
+    #verbildlichung{
+        flex-direction: column;
+        align-items: center;
+    }
+    .zielIcon{
+        padding-top: 2.5em;
+    }  
+}
+@media (max-width:768px) {
+    #werWirSind{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 100%;
+        flex-wrap: nowrap;
+    }
+    #werWirSind img {
+        padding-bottom: 3em;
+    }
+    #werWirSind p{
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    #teamBildContianer > img{
+        max-width: 99%;
+    }
+    #werWirSindText{
+        width: 99%;
+    }
+}
+@media (max-width: 549px) {
+    #zitat{
+        font-size: 4em;
+    }
+    .textKlein{
+        font-size: 1.6em;
+    }
+    
+        
 }
