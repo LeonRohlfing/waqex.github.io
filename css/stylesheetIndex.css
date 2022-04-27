@@ -170,3 +170,9 @@
         width: 100%;
     }
 }
+@media (max-width: 966px) {
+    #mehrErfahrenContainer{
+        margin-bottom: 2em;
+    }
+
+}
