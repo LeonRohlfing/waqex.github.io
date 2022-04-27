@@ -18,37 +18,47 @@ marks.florian123@gmail.com
 
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
+    <script src="js/main.js" async></script>
+    <meta name="google-site-verification" content="EIGej2juHhW666ScWfbVEwHt1v82LE5mCDqHmb7lYWM" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="kexwords"
+        content="Waqex, WAQEX, waqex, changes.award, CHANGES.AWARD, Team, Wasser, Luft, Wettbewerb, Helfen, Innovation">
     <meta name="viewport" content="width=s, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylesheetWaqex.css">
     <link rel="stylesheet" href="css/stylesheetMain.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
-    <title>Waqex|Wofür wir stehen</title>
+    <title>Waqex|Home</title>
 </head>
+
 <body>
     <header>
         <div id="innerHeader">
-            <a href="index.html#home"><li><img id="logoHeader" src="Images/waqex-logo-mit-tex-weiÃŸ-WEBSITE.png" alt=""></li></a>
+            <a href="index.html#home">
+                <li><img id="logoHeader" src="Images/waqex-logo-mit-tex-weiÃŸ-WEBSITE.png" alt=""></li>
+            </a>
+            <li id="toggleMenue" onclick='OpenMenue()'><img src="Images/menu_white_24dp.svg" alt=""></li>
             <nav id="navigation">
-                <a href="index.html#allgemein" class="navItem">
-                    <li>Home</li>
+                <a href="index.html#home" class="navItem" onclick="closeMenue()">
+                    <li>Überblick</li>
                 </a>
-                <!--a href="#wofürWirStehen" class="navItem">
+                <!--a href="index.html#wofürWirStehen" class="navItem" onclick="closeMenue()">
                     <li>Wofür WAQEX steht</li>
                 </a-->
-                <a href="" class="navItem">
+                <a href="produkt.html" class="navItem" onclick="closeMenue()">
                     <li>Das Produkt</li>
                 </a>
-                <a href="index.html#unserTeam" class="navItem">
+                <a href="index.html#unserTeam" class="navItem" onclick="closeMenue()">
                     <li>Das Team</li>
                 </a>
-                <a href="kontakt.html" class="navItem">
+                <a href="kontakt.html" class="navItem" onclick="closeMenue()">
                     <li>Kontakt</li>
                 </a>
+                <li class="navItem" id="menueSchließen" onclick="closeMenue()">Menue schließen</li>
             </nav>
         </div>
     </header>

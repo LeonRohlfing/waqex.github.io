@@ -1,41 +1,71 @@
+<!-- Copyright (C) 2022 Florian Marks
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see
+<https: //www.gnu.org/licenses />.
+
+marks.florian123@gmail.com
+-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+
 <head>
+    <script src="js/main.js" async></script>
+    <meta name="google-site-verification" content="EIGej2juHhW666ScWfbVEwHt1v82LE5mCDqHmb7lYWM" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="kexwords"
+        content="Waqex, WAQEX, waqex, changes.award, CHANGES.AWARD, Team, Wasser, Luft, Wettbewerb, Helfen, Innovation">
     <meta name="viewport" content="width=s, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stylesheetProdukt.css">
     <link rel="stylesheet" href="css/stylesheetMain.css">
+    <link rel="stylesheet" href="css/stylesheetProdukt.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
-    <title>Waqex|Das Produkt</title>
+    <title>Waqex|Home</title>
 </head>
+
 <body>
     <header>
         <div id="innerHeader">
-            <a href="index.html#home"><li><img id="logoHeader" src="Images/waqex-logo-mit-tex-weiÃŸ-WEBSITE.png" alt=""></li></a>
+            <a href="index.html#home">
+                <li><img id="logoHeader" src="Images/waqex-logo-mit-tex-weiÃŸ-WEBSITE.png" alt=""></li>
+            </a>
+            <li id="toggleMenue" onclick='OpenMenue()'><img src="Images/menu_white_24dp.svg" alt=""></li>
             <nav id="navigation">
-                <a href="index.html#allgemein" class="navItem">
-                    <li>Home</li>
+                <a href="index.html#home" class="navItem" onclick="closeMenue()">
+                    <li>Überblick</li>
                 </a>
-                <a href="#wofürWirStehen" class="navItem">
+                <a href="index.html#wofürWirStehen" class="navItem" onclick="closeMenue()">
                     <li>Wofür WAQEX steht</li>
                 </a>
-                <!--a href="" class="navItem">
+                <!--a href="produkt.html" class="navItem" onclick="closeMenue()">
                     <li>Das Produkt</li>
                 </a-->
-                <a href="index.html#unserTeam" class="navItem">
+                <a href="index.html#unserTeam" class="navItem" onclick="closeMenue()">
                     <li>Das Team</li>
                 </a>
-                <a href="kontakt.html" class="navItem">
+                <a href="kontakt.html" class="navItem" onclick="closeMenue()">
                     <li>Kontakt</li>
                 </a>
+                <li class="navItem" id="menueSchließen" onclick="closeMenue()">Menue schließen</li>
             </nav>
         </div>
     </header>
+<!--Home---------------------------------------------------------------------------------------------->
     <div id="backgroundContainer">
-        <img src="http://via.placeholder.com/350x350"" alt="">
+        <img src="" alt="">
     </div>
+<!--Unser Produkt------------------------------------------------------------------------------------->
     <section id="start">
         <div id="titleStartContainer">
             <h1>Unser <span>Produkt</span></h1>
@@ -58,6 +88,7 @@
                 </p>
             </div>
     </section>
+<!--Nachhaltig----------------------------------------------------------------------------------------->
     <section id="nachhaltig">
         <h1><span>Nachhaltig</span>keit</h1>
         <hr>
@@ -70,9 +101,11 @@
             Dies tun wir möglichst nachhaltig und somit umweltfreundlich. Dank der hochwertigen Solaranlagen unseres Produktes kann unser Produkt ohne externe Stromquellen betrieben werden und keine Emissionen werden während der Betreibung ausgestoßen.
         </p>
     </section>
+<!--Vorstellung--------------------------------------------------------------------------------------->
     <section id="vorstellung">
 
     </section>
+<!--Innovation---------------------------------------------------------------------------------------->
     <section id="innovation">
        <div id="textInnovation">
             <h1><span>Innovation</span> für alle</h1>

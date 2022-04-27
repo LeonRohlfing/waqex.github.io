@@ -163,3 +163,45 @@ footer a{
 .socialELM{
     padding-left: 10px;
 }
+#toggleMenue{
+    margin-left: 60px;
+    vertical-align: middle;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menueSchließen{
+    display: none;
+}
+@media (max-width: 968px) {
+    #toggelMenue{
+        display: block;
+    }
+    #navigation{
+        position: absolute;
+        top: 12% 1;
+        right: 0;
+        left: 0;
+        display: none;
+        min-width: 55vw;
+        height: 100vh;
+        flex-direction: column;
+        background: url(../Images/nature-4101348.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }    
+}
+
+@media (min-width: 969px){
+    #toggleMenue{
+        display: none;
+    }
+}
+@media (max-width: 583px) {
+    #allgemein{
+        display: flex;
+        flex-direction: column;
+    }
+}
