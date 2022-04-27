@@ -46,3 +46,18 @@ hr{
     margin-top: 1em;
     margin-bottom: 1em;
 }
+@media (max-width: 509px) {
+    .teamMemberText{
+        max-width: 100%;
+        padding: 0 1em 0 1em;
+    }
+    .aufgabe{
+        font-size: 1.2em;
+    }
+    .teamMememberImage > img{
+        max-width: 100%;
+    }
+    .teamMember{
+        max-width: 99.96%;
+    }
+}

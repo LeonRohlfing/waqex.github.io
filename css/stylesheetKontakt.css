@@ -46,3 +46,32 @@ h2 {
     padding-top: 2em;
     text-decoration: none;
 }
+@media (max-width: 670px) {
+    #rechtliches h1{
+        padding-top: 1em;
+        width: 100%;
+        font-size: 3em;
+    }
+    #rechtliches h2{
+        font-size: 2em;
+    }
+    #rechtliches{
+        padding: 0.2em;
+    }
+    #rechtliches{
+        font-size: 1em;
+    }
+    #Impressum{
+        padding: 0.2em;
+        font-size: 2em;
+    }
+    #Impressum span{
+        font-size: 0.7em;
+    }
+    #Impressum h2{
+        font-size: 1em;
+    }
+    #home h1{
+        font-size: 4em;
+    }
+}
