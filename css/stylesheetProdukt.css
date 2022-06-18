@@ -35,6 +35,9 @@ flex-direction: column;}
     width: 1;
     padding: 2em;
 }
+#textContainerStart img{
+    padding-bottom: 3em;
+}
 /*Nachhaltigkeit*/
 #nachhaltig {
     background: rgba(0, 0, 0, 0.656) url(../Images/nature-4101348.jpg);
@@ -96,6 +99,9 @@ flex-direction: column;}
 @media (max-Width: 622px) {
     h1{
         font-size: 3em;
+    }
+    h2{
+        font-size: 2em;
     }
     p{
         font-size: 1.5em;
