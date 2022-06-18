@@ -18,6 +18,9 @@
 #backgroundContainer{
     max-height: 50vh;
 }
+#vorstellung p, #textContainerStart p{
+    padding: 0 3em 0 3em;
+}
 h1{
     padding-top: 1.5em;
 }
@@ -51,7 +54,21 @@ flex-direction: column;}
     font-size: 2.4em;   
 }
 /*Vorstellung*/
-
+#vorstellung{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2em ;
+}
+#vorstellung ul{
+    font-size: 2.4em;
+    text-align: left;
+    align-items: center;
+}
+#vorstellung h2{
+    margin-top: 2em;
+}
 /*Innovation*/
 #innovation{
     background: rgba(0, 0, 0, 0.656) url(../Images/lightbulb-4354424_1920.jpg);
@@ -104,6 +121,9 @@ flex-direction: column;}
         font-size: 2em;
     }
     p{
+        font-size: 1.5em;
+    }
+    #vorstellung ul{
         font-size: 1.5em;
     }
     #nachhaltig p{
