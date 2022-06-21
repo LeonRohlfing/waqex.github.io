@@ -91,6 +91,13 @@
     background-position: center center;
     background-size: cover;
 }
+/*Wettbewerb*/
+#wettbewerb{
+    min-height: auto;
+    background-color: rgb(78, 78, 78);
+    padding: 1em;
+}
+
 /*Wofür wir stehen*/
 #wofürWirStehen h1{
     padding-top: 1em;
